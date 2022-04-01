@@ -7,9 +7,9 @@ cin>>n;
 while (n>0)
 {
    int mod=n%10;
-   cout<<mod<<endl;
+   
     if(mod==4||mod==7){
-        // cout<<mod<<endl;
+        
         count++;
     }
    n=n/10;
