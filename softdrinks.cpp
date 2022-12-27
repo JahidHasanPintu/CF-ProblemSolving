@@ -5,7 +5,8 @@ using namespace std;
 int main()
 {
     int n, k, l, c, d, p, nl, np;
-    cin>>n>>k>>l>>c>>d>>p>>nl>>np;
+    // cin>>n>>k>>l>>c>>d>>p>>nl>>np;
+    scanf("%d %d %d %d %d %d %d %d ",&n, &k, &l, &c, &d, &p, &nl, &np);
     int total_am_of_drink = k*l;
     int total_slice_of_lime = c*d;
     int drink_available = total_am_of_drink/nl;
@@ -20,6 +21,7 @@ int main()
     }
 
     int each_make = they_can_make/n;
-    cout<<each_make<<endl;
+    // cout<<each_make<<endl;
+    printf("%d",each_make);
 
 }
