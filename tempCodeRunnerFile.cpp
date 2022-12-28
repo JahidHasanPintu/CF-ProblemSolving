@@ -1,4 +1,3 @@
- 1])
-        {
-            count++;
-        }
+if(i==j){
+            //     continue;
+            // }
