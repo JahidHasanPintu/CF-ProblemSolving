@@ -1,3 +1,1 @@
-if(i==j){
-            //     continue;
-            // }
+i+(b*b)
