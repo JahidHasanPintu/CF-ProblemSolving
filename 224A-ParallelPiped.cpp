@@ -15,7 +15,7 @@ double findEdges(double s1, double s2, double s3)
 	return 4 * sum;
 }
 
-// Driver code
+
 int main()
 {
 	double s1, s2, s3;
